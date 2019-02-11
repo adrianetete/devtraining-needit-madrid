@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1bf58171db632300ac21a0f2ca9619dd</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>4c5241fddb232300ac21a0f2ca961945</answer>
+        <condition table="var__m_sys_decision_input_28b285fddb232300ac21a0f2ca961970">u_request_type=legal^u_what_neededINlegal1,other^ORu_priorityIN3,4,5^EQ<item endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="legal"/>
+            <item endquery="false" field="u_what_needed" goto="false" newquery="false" operator="IN" or="false" value="legal1,other"/>
+            <item endquery="false" field="u_priority" goto="false" newquery="false" operator="IN" or="true" value="3,4,5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Assignee Category Decision">28b285fddb232300ac21a0f2ca961970</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_28b285fddb232300ac21a0f2ca961970</input_table>
+        <label>Legal 1</label>
+        <order>200</order>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-02-11 09:52:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1bf58171db632300ac21a0f2ca9619dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-02-11 09:53:42</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2019-02-11 09:52:39</sys_created_on>
+        <sys_id>de568171db632300ac21a0f2ca9619e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Legal 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_de568171db632300ac21a0f2ca9619e0</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2019-02-11 09:53:42</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>
